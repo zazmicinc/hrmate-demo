@@ -1,0 +1,11 @@
+{
+  "name": "hrmate-demo",
+  "private": true,
+  "packageManager": "pnpm@9.15.3",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "prototype": "pnpm --filter hrmate-prototype dev",
+    "build": "pnpm --filter hrmate-prototype build",
+    "typecheck": "pnpm --filter hrmate-prototype typecheck"
+  }
+}

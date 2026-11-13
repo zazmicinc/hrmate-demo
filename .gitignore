@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+*.tsbuildinfo
+.claude/settings.local.json
+.claude/launch.json
+.pnpm-store/
+.env
+.env.*
+!.env.example
